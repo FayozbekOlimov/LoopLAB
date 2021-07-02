@@ -1,0 +1,63 @@
+.fixedNavbar {
+    position: fixed;
+    background: rgba(33,37,41,0.5);
+    border-bottom: 3px solid #008ed6;
+}
+
+.icon {
+    font-size: 2rem;
+    color: #008ed6;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.btn {
+    transition: all 0.3s linear;
+}
+
+.title, .subtitle {
+    color: #fff;
+}
+
+.main {
+    background: linear-gradient(rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.7) 100%), url("./images/home.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    &-Row {
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        color: #fff;       
+    }
+
+    &-Form {
+        width: 90%;
+        margin: auto;
+        border-radius: 5px;
+    }
+}
+
+.exploreSection {
+    color: #6C757D;
+
+    .title, .subtitle {
+        color: #6C757D;
+    }
+
+    .icon {
+        color: #fff;
+    }
+}
+
+.createSection {
+    .text {
+        color: #fff;
+    }
+}
+
+@media (max-width: 991px) {
+    .hidden {
+        display: none;
+    }
+}
